@@ -71,7 +71,7 @@ def get_openai_response(user_message):
         st.stop()
 
     # OpenAI model and system message
-    model = "aug-coneval-v2-w"  # Using the specified finetuned GPT-4o model
+    model = "ft:gpt-4o-mini-2024-07-18:raptive-nonprod:aug-coneval-v2-w:AEDc7Xng"  # Using the specified finetuned GPT-4o model
     system_message = """
     You are ChatGPT, a large language model trained by OpenAI.
     """
