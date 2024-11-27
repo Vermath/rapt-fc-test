@@ -73,7 +73,7 @@ def get_openai_response(user_message):
     # OpenAI model and system message
     model = "ft:gpt-4o-mini-2024-07-18:raptive-nonprod:aug-coneval-v2-w:AEDc7Xng"  # Using the specified finetuned GPT-4o model
     system_message = """
-    You are ChatGPT, a large language model trained by OpenAI.
+    You are a helpful assistant that helps to analyze the content as winner, loser or neutral content.
     """
 
     chat_completion = openai_client.chat.completions.create(
